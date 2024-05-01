@@ -8,14 +8,11 @@ import pyttsx3
 engine = pyttsx3.init()
 video_capture = cv2.VideoCapture(0)
 
-juhi_image= face_recognition.load_image_file("faces/juhi.png")
-juhi_encoding = face_recognition.face_encodings(juhi_image)[0]
-
 shaswat_image= face_recognition.load_image_file("faces/shaswat.jpeg")
 shaswat_encoding = face_recognition.face_encodings(shaswat_image)[0]
 
-known_face_encodings = [juhi_encoding, shaswat_encoding]
-known_face_names = ["Juhi", "Shaswat"]
+known_face_encodings = [ shaswat_encoding]
+known_face_names = [ "Shaswat"]
 # listed of expected students
 students = known_face_names.copy()
 
