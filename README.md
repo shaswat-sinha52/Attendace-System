@@ -29,6 +29,4 @@ This Python script utilizes face recognition to automate attendance marking.
 
 We welcome contributions to improve this project. Feel free to submit pull requests with enhancements or bug fixes.
 
-### License
 
-This project is licensed under the MIT License. See the LICENSE file for details.
